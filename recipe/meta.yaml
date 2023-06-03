@@ -1,5 +1,5 @@
 {% set name = "decli" %}
-{% set version = "0.5.2" %}
+{% set version = "0.6.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/decli-{{ version }}.tar.gz
-  sha256: f2cde55034a75c819c630c7655a844c612f2598c42c21299160465df6ad463ad
+  sha256: ed88ccb947701e8e5509b7945fda56e150e2ac74a69f25d47ac85ef30ab0c0f0
 
 build:
   number: 0
